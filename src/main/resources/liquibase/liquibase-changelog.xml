@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="changelog/initial-table.xml" relativeToChangelogFile="true"/>
+    <include file="changelog/insert-default-settings.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>
+<!--
+    COMPANY INFO
+name: Planet Express, Inc.
+Slogan: "Our crew is replaceable, your package isn't!"
+Planet: Earth, Sol System,
+location: Manhattan,New New York, United States
+age: About 50 Years
+Business: Pаckage Delivering
+Owner/CEO: Hubert J. Farnsworth
+Number of employees: 8
+Number of ships: 1
+
+    Ships
+name: Old Bessie
+Species: Robotic Spacecraft
+Color: bright green (electric mucus)
+Captain:
+pilot:
+
+    Employees
+name: Turanga Leela
+Age: 37
+Gender: Female
+Species: Mutant
+Planet: Earth
+Profession: Captain and pilot of the Planet Express delivery ship
+
+name: Philip J. Fry
+Age: 37
+Gender: male
+Species: Human
+Planet: Earth
+Profession: Intergalactic delivery boy
+
+name: Bender Bending Rodríguez
+Age: 4
+Gender: male
+Species: Robot
+Planet: Earth
+Profession: Planet Express Worker
+
+name: Hubert J. Farnsworth
+Age: 210
+Gender: male
+Species: Human
+Planet: Earth
+Profession: Scientist, owner and founder of the Planet Express delivery company
+
+name: Hermes Conrad
+Age: 54
+Gender: male
+Species: Human
+Planet: Earth
+Profession: Bureaucrat and Accountant
+
+name: John A. Zoidberg
+Age: 98
+Gender: male
+Species: Decapodian Monster
+Planet: Decapod 10
+Profession: Physician
+
+name: Amy Wong
+Age: 25
+Gender: female
+Species: Human
+Planet: Mars
+Profession: intern at Planet Express
+
+name: Scruffy Scruffington
+Age: 55
+Gender: male
+Species: Human
+Planet: Earth
+Profession: Janitor
+-->

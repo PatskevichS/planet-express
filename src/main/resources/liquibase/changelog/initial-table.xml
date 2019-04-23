@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="patskevich" id="1.1">
+        <createTable tableName="COMPANY">
+            <column name="ID" type="INT" autoIncrement="true" incrementBy="1" startWith="1">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="NAME" type="VARCHAR(64)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SLOGAN" type="VARCHAR(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="PLANET" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="LOCATION" type="VARCHAR(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="AGE" type="INT">
+                <constraints nullable="true"/>
+            </column>
+            <column name="BUSINESS" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="OWNER" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="NUMBER_OF_EMPLOYEES" type="INT">
+                <constraints nullable="true"/>
+            </column>
+            <column name="NUMBER_OF_SHIPS" type="INT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="patskevich" id="1.2">
+        <createTable tableName="SHIPS">
+            <column name="ID" type="INT" autoIncrement="true" incrementBy="1" startWith="1">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="NAME" type="VARCHAR(64)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SPECIES" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="COLOR" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="CAPTAIN" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="PILOT" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="patskevich" id="1.3">
+        <createTable tableName="EMPLOYEES">
+            <column name="ID" type="INT" autoIncrement="true" incrementBy="1" startWith="1">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="NAME" type="VARCHAR(64)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="AGE" type="INT">
+                <constraints nullable="true"/>
+            </column>
+            <column name="GENDER" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="SPECIES" type="VARCHAR(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="PLANET" type="VARCHAR(64)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="PROFESSION" type="VARCHAR(255)">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
+
