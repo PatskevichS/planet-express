@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @RestController
 @RequestMapping(EmployeeController.CURRENT_PAGE_URL)
-public class EmployeeController {
+public class EmployeeController { // TODO ResponseEntity
 
     public static final String CURRENT_PAGE_URL = "/employee";
     private final EmployeeService employeeService;

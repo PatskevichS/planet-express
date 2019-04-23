@@ -9,19 +9,19 @@ import javax.validation.constraints.NotNull;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "EMPLOYEES")
-public class Employee {
+@Table(name = "DELIVERY")
+public class Delivery {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotNull
-    private String name;
-    private int age;
-    private String gender;
-    private String species;
+    private String sender;
+    private String recipient;
     private String planet;
-    private Long ship;
-    private String profession;
+    private String address;
+    private String note;
+    private Long deliveryShip;
+    private String Status;
 }

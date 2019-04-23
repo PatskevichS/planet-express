@@ -35,6 +35,7 @@
             <column name="GENDER" value="Female"/>
             <column name="SPECIES" value="Mutant"/>
             <column name="PLANET" value="Earth"/>
+            <column name="SHIP" valueNumeric="1"/>
             <column name="PROFESSION" value="Captain and pilot of the Planet Express delivery ship"/>
         </insert>
         <!--Fry-->
@@ -45,6 +46,7 @@
             <column name="GENDER" value="Male"/>
             <column name="SPECIES" value="Human"/>
             <column name="PLANET" value="Earth"/>
+            <column name="SHIP" valueNumeric="1"/>
             <column name="PROFESSION" value="Intergalactic delivery boy"/>
         </insert>
         <!--Bender-->
@@ -55,6 +57,7 @@
             <column name="GENDER" value="Male"/>
             <column name="SPECIES" value="Robot"/>
             <column name="PLANET" value="Earth"/>
+            <column name="SHIP" valueNumeric="1"/>
             <column name="PROFESSION" value="Planet Express Worker"/>
         </insert>
         <!--Professor Farnsworth-->

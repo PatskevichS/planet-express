@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @RestController
 @RequestMapping(ShipController.CURRENT_PAGE_URL)
-public class ShipController {
+public class ShipController { // TODO ResponseEntity
 
     public static final String CURRENT_PAGE_URL = "/ship";
     private final ShipService shipService;

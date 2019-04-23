@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 @RestController
 @RequestMapping(CompanyController.CURRENT_PAGE_URL)
-public class CompanyController {
+public class CompanyController { // TODO ResponseEntity
 
     public static final String CURRENT_PAGE_URL = "/company";
     private final CompanyService companyService;
