@@ -1,0 +1,62 @@
+2019-05-07 13:50:05.017  INFO 408 --- [main] c.p.p.PlanetExpressApplicationTests      : Starting PlanetExpressApplicationTests on Hopeend with PID 408 (started by Hope in C:\Users\Hope\Desktop\planet-express\backend)
+2019-05-07 13:50:05.061  INFO 408 --- [main] c.p.p.PlanetExpressApplicationTests      : No active profile set, falling back to default profiles: default
+2019-05-07 13:50:08.107  INFO 408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 13:50:08.609  INFO 408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 320ms. Found 5 repository interfaces.
+2019-05-07 13:50:09.888  INFO 408 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fbab04d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 13:50:10.370  INFO 408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-07 13:50:12.746  INFO 408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-07 13:50:23.615  INFO 408 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM `planet-express`.DATABASECHANGELOGLOCK
+2019-05-07 13:50:23.954  INFO 408 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM `planet-express`.DATABASECHANGELOGLOCK
+2019-05-07 13:50:23.967  INFO 408 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT `LOCKED` FROM `planet-express`.DATABASECHANGELOGLOCK WHERE ID=1
+2019-05-07 13:50:25.229  INFO 408 --- [main] l.lockservice.StandardLockService        : Successfully acquired change log lock
+2019-05-07 13:50:28.164  INFO 408 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT MD5SUM FROM `planet-express`.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2019-05-07 13:50:28.275  INFO 408 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM `planet-express`.DATABASECHANGELOG
+2019-05-07 13:50:28.278  INFO 408 --- [main] l.c.StandardChangeLogHistoryService      : Reading from `planet-express`.DATABASECHANGELOG
+2019-05-07 13:50:28.280  INFO 408 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT * FROM `planet-express`.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2019-05-07 13:50:28.995  INFO 408 --- [main] l.lockservice.StandardLockService        : Successfully released change log lock
+2019-05-07 13:50:31.670  INFO 408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-07 13:50:34.271  INFO 408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-07 13:50:34.277  INFO 408 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-07 13:50:35.740  INFO 408 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-07 13:50:36.145  INFO 408 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-05-07 13:50:37.825  INFO 408 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-07 13:50:41.337  INFO 408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-07 13:50:41.437  WARN 408 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-07 13:50:41.975  INFO 408 --- [main] c.p.p.PlanetExpressApplicationTests      : Started PlanetExpressApplicationTests in 38.161 seconds (JVM running for 43.723)
+2019-05-07 13:50:42.454  INFO 408 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-07 13:50:42.462  INFO 408 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-07 13:50:42.469  INFO 408 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-07 13:50:42.485  INFO 408 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-07 13:53:42.674  INFO 7120 --- [main] c.p.p.PlanetExpressApplicationTests      : Starting PlanetExpressApplicationTests on Hopeend with PID 7120 (started by Hope in C:\Users\Hope\Desktop\planet-express\backend)
+2019-05-07 13:53:42.684  INFO 7120 --- [main] c.p.p.PlanetExpressApplicationTests      : No active profile set, falling back to default profiles: default
+2019-05-07 13:53:48.050  INFO 7120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-07 13:53:49.526  INFO 7120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1245ms. Found 5 repository interfaces.
+2019-05-07 13:53:52.979  INFO 7120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$136327ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-07 13:53:53.487  INFO 7120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-07 13:53:53.989  INFO 7120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-07 13:53:55.759  INFO 7120 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM `planet-express`.DATABASECHANGELOGLOCK
+2019-05-07 13:53:55.893  INFO 7120 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM `planet-express`.DATABASECHANGELOGLOCK
+2019-05-07 13:53:55.897  INFO 7120 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT `LOCKED` FROM `planet-express`.DATABASECHANGELOGLOCK WHERE ID=1
+2019-05-07 13:53:56.385  INFO 7120 --- [main] l.lockservice.StandardLockService        : Successfully acquired change log lock
+2019-05-07 13:53:58.371  INFO 7120 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT MD5SUM FROM `planet-express`.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL LIMIT 1
+2019-05-07 13:53:58.396  INFO 7120 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT COUNT(*) FROM `planet-express`.DATABASECHANGELOG
+2019-05-07 13:53:58.397  INFO 7120 --- [main] l.c.StandardChangeLogHistoryService      : Reading from `planet-express`.DATABASECHANGELOG
+2019-05-07 13:53:58.398  INFO 7120 --- [main] liquibase.executor.jvm.JdbcExecutor      : SELECT * FROM `planet-express`.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2019-05-07 13:53:58.644  INFO 7120 --- [main] l.lockservice.StandardLockService        : Successfully released change log lock
+2019-05-07 13:53:59.580  INFO 7120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-07 13:54:00.600  INFO 7120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-07 13:54:00.603  INFO 7120 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-07 13:54:01.649  INFO 7120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-07 13:54:02.151  INFO 7120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-05-07 13:54:04.326  INFO 7120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-07 13:54:08.661  INFO 7120 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-07 13:54:08.770  WARN 7120 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-07 13:54:09.518  INFO 7120 --- [main] c.p.p.PlanetExpressApplicationTests      : Started PlanetExpressApplicationTests in 27.381 seconds (JVM running for 28.432)
+2019-05-07 13:54:12.602  INFO 7120 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-07 13:54:12.614  INFO 7120 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-07 13:54:12.677  INFO 7120 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-07 13:54:12.688  INFO 7120 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
